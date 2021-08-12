@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>hexo</title>
+  <title>云霄学派</title>
   
-  <subtitle>少时诵诗书</subtitle>
+  <subtitle>白衣渡江</subtitle>
   <link href="https://shangzhengyu.github.io/atom.xml" rel="self"/>
   
   <link href="https://shangzhengyu.github.io/"/>
-  <updated>2021-08-12T09:17:52.512Z</updated>
+  <updated>1985-10-26T08:15:00.000Z</updated>
   <id>https://shangzhengyu.github.io/</id>
   
   <author>
@@ -15,30 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>hellowordhexo s</title>
-    <link href="https://shangzhengyu.github.io/2021/08/12/hellowordhexo-s/"/>
-    <id>https://shangzhengyu.github.io/2021/08/12/hellowordhexo-s/</id>
-    <published>2021-08-12T05:13:39.000Z</published>
-    <updated>2021-08-12T09:17:52.512Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;注释&quot;&gt;&lt;a href=&quot;#注释&quot; class=&quot;headerlink&quot; title=&quot;注释&quot;&gt;&lt;/a&gt;注释&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;单行注释&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;   #  </summary>
-        
-      
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>Hello World</title>
