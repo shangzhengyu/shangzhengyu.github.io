@@ -3,11 +3,11 @@
   <title>hexo</title>
   
   <subtitle>少时诵诗书</subtitle>
-  <link href="https://shangzhengyu.github.io/shangzhengyu/atom.xml" rel="self"/>
+  <link href="https://shangzhengyu.github.io/atom.xml" rel="self"/>
   
-  <link href="https://shangzhengyu.github.io/shangzhengyu/"/>
+  <link href="https://shangzhengyu.github.io/"/>
   <updated>2021-08-12T09:17:52.512Z</updated>
-  <id>https://shangzhengyu.github.io/shangzhengyu/</id>
+  <id>https://shangzhengyu.github.io/</id>
   
   <author>
     <name>白衣渡江</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>hellowordhexo s</title>
-    <link href="https://shangzhengyu.github.io/shangzhengyu/2021/08/12/hellowordhexo-s/"/>
-    <id>https://shangzhengyu.github.io/shangzhengyu/2021/08/12/hellowordhexo-s/</id>
+    <link href="https://shangzhengyu.github.io/2021/08/12/hellowordhexo-s/"/>
+    <id>https://shangzhengyu.github.io/2021/08/12/hellowordhexo-s/</id>
     <published>2021-08-12T05:13:39.000Z</published>
     <updated>2021-08-12T09:17:52.512Z</updated>
     
@@ -42,8 +42,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://shangzhengyu.github.io/shangzhengyu/2021/08/12/hello-world/"/>
-    <id>https://shangzhengyu.github.io/shangzhengyu/2021/08/12/hello-world/</id>
+    <link href="https://shangzhengyu.github.io/2021/08/12/hello-world/"/>
+    <id>https://shangzhengyu.github.io/2021/08/12/hello-world/</id>
     <published>2021-08-12T04:59:27.722Z</published>
     <updated>1985-10-26T08:15:00.000Z</updated>
     
