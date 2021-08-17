@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>云霄学派</title>
+  
+  <subtitle>白衣^_^渡江</subtitle>
+  <link href="https://shangzhengyu.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://shangzhengyu.github.io/"/>
+  <updated>2021-08-17T10:52:29.353Z</updated>
+  <id>https://shangzhengyu.github.io/</id>
+  
+  <author>
+    <name>白衣渡江</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>初识Python</title>
+    <link href="https://shangzhengyu.github.io/2021/08/17/21817.html"/>
+    <id>https://shangzhengyu.github.io/2021/08/17/21817.html</id>
+    <published>2021-08-17T10:52:13.000Z</published>
+    <updated>2021-08-17T10:52:29.353Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;注释&quot;&gt;&lt;a href=&quot;#注释&quot; class=&quot;headerlink&quot; title=&quot;注释&quot;&gt;&lt;/a&gt;注释&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;单行注释&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;   #  </summary>
+        
+      
+    
+    
+    
+    <category term="高级语言" scheme="https://shangzhengyu.github.io/categories/%E9%AB%98%E7%BA%A7%E8%AF%AD%E8%A8%80/"/>
+    
+    
+    <category term="Typora" scheme="https://shangzhengyu.github.io/tags/Typora/"/>
+    
+    <category term="Python" scheme="https://shangzhengyu.github.io/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于hexo搭建美化的问题与解答</title>
+    <link href="https://shangzhengyu.github.io/2021/08/16/21816.html"/>
+    <id>https://shangzhengyu.github.io/2021/08/16/21816.html</id>
+    <published>2021-08-16T09:37:19.000Z</published>
+    <updated>2021-08-17T10:48:01.091Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;关于hexo搭建美化的问题与解答&quot;&gt;&lt;a href=&quot;#关于hexo搭建美化的问题与解答&quot; class=&quot;headerlink&quot; title=&quot;关于hexo搭建美化的问题与解答&quot;&gt;&lt;/a&gt;关于hexo搭建美化的问题与解答&lt;/h1&gt;&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="hexo" scheme="https://shangzhengyu.github.io/categories/hexo/"/>
+    
+    
+    <category term="Typora" scheme="https://shangzhengyu.github.io/tags/Typora/"/>
+    
+    <category term="hexo" scheme="https://shangzhengyu.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于hexo + github 博客环境的搭建与美化</title>
+    <link href="https://shangzhengyu.github.io/2021/08/15/21815.html"/>
+    <id>https://shangzhengyu.github.io/2021/08/15/21815.html</id>
+    <published>2021-08-15T10:50:04.000Z</published>
+    <updated>2021-08-15T13:48:51.445Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;关于hexo-github-博客环境的搭建与美化&quot;&gt;&lt;a href=&quot;#关于hexo-github-博客环境的搭建与美化&quot; class=&quot;headerlink&quot; title=&quot;关于hexo + github 博客环境的搭建与美化&quot;&gt;&lt;/a&gt;关于hexo +</summary>
+        
+      
+    
+    
+    
+    <category term="hexo" scheme="https://shangzhengyu.github.io/categories/hexo/"/>
+    
+    
+    <category term="Typora" scheme="https://shangzhengyu.github.io/tags/Typora/"/>
+    
+    <category term="hexo" scheme="https://shangzhengyu.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hello world</title>
+    <link href="https://shangzhengyu.github.io/2021/08/13/26735.html"/>
+    <id>https://shangzhengyu.github.io/2021/08/13/26735.html</id>
+    <published>2021-08-13T01:09:34.000Z</published>
+    <updated>2021-08-15T13:41:33.352Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="Markdown" scheme="https://shangzhengyu.github.io/categories/Markdown/"/>
+    
+    
+    <category term="Typora" scheme="https://shangzhengyu.github.io/tags/Typora/"/>
+    
+    <category term="Markdown" scheme="https://shangzhengyu.github.io/tags/Markdown/"/>
+    
+  </entry>
+  
+</feed>
