@@ -29,6 +29,41 @@
       </tags>
   </entry>
   <entry>
+    <title>关于hexo搭建美化的问题与解答</title>
+    <url>/2021/08/16/21816.html</url>
+    <content><![CDATA[<h1 id="关于hexo搭建美化的问题与解答"><a href="#关于hexo搭建美化的问题与解答" class="headerlink" title="关于hexo搭建美化的问题与解答"></a>关于hexo搭建美化的问题与解答</h1><h2 id="一-搭建问题篇"><a href="#一-搭建问题篇" class="headerlink" title="一. 搭建问题篇"></a>一. 搭建问题篇</h2><h3 id="1-安装软件（新版其实就是一直点next）"><a href="#1-安装软件（新版其实就是一直点next）" class="headerlink" title="1.安装软件（新版其实就是一直点next）"></a>1.安装软件（新版其实就是一直点next）</h3><h3 id="2-命令操作（管理员打开）配置并生成hexo环境"><a href="#2-命令操作（管理员打开）配置并生成hexo环境" class="headerlink" title="2.命令操作（管理员打开）配置并生成hexo环境"></a>2.命令操作（管理员打开）配置并生成hexo环境</h3><ul>
+<li>如果使用git未能生成hexo，则使用命令操作。</li>
+</ul>
+<p>​      <u>在开始菜单中搜索“命令提示符”（不是“开始 + R”）右键管理员运行</u>。</p>
+<ul>
+<li><a href="https://blog.csdn.net/finally_flx/article/details/104914313">执行完<strong>npm install -g hexo</strong>，在git bash 下执行<strong>hexo -v</strong> 显示命令找不到</a>，可能是环境变量的问题。</li>
+<li> <a href="https://blog.csdn.net/dongzh029/article/details/116223977">npm安装Vue失败，报错：npm WARN saveError ENOENT: no such file or directory</a>，可以改也可以不改他，警告可以忽略掉。</li>
+<li> 必须生成一篇文章</li>
+</ul>
+<h3 id="3-环境变量设置"><a href="#3-环境变量设置" class="headerlink" title="3.环境变量设置"></a>3.环境变量设置</h3><h3 id="4-无法部署远端"><a href="#4-无法部署远端" class="headerlink" title="4.无法部署远端"></a>4.无法部署远端</h3><ul>
+<li><p><a href="https://www.jianshu.com/p/b2c22891a644">npm install 失败 无法连接</a></p>
+</li>
+<li><p><a href="https://www.cnblogs.com/tenderwx/p/5783432.html">Error: fatal: Not a git repository (or any of the parent directories): .git</a></p>
+</li>
+<li><p><a href="https://www.dazhuanlan.com/zrjandwxf1010/topics/1163244">warning: LF will be replaced by CRLF的去除方法</a></p>
+</li>
+</ul>
+<h2 id="二-美化问题篇"><a href="#二-美化问题篇" class="headerlink" title="二. 美化问题篇"></a>二. 美化问题篇</h2><h3 id="1-空格不当问题"><a href="#1-空格不当问题" class="headerlink" title="1.空格不当问题"></a>1.空格不当问题</h3><ul>
+<li><a href="https://blog.csdn.net/qq_43857095/article/details/108272313">err: YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 4, column 1: ^</a></li>
+</ul>
+<h3 id="2-仓库名对应"><a href="#2-仓库名对应" class="headerlink" title="2.仓库名对应"></a>2.仓库名对应</h3><h3 id="3-插件安装及卸载"><a href="#3-插件安装及卸载" class="headerlink" title="3.插件安装及卸载"></a>3.插件安装及卸载</h3><h3 id="4-启动插件"><a href="#4-启动插件" class="headerlink" title="4.启动插件"></a>4.启动插件</h3><h3 id="5-服务器网速慢"><a href="#5-服务器网速慢" class="headerlink" title="5.服务器网速慢"></a>5.服务器网速慢</h3><ul>
+<li><a href="https://blog.csdn.net/zheng_cs/article/details/117109710">Hexo-d 报错 fatal: unable to access https://github.com/xx/xx.github.io</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>Typora</tag>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>关于hexo + github 博客环境的搭建与美化</title>
     <url>/2021/08/15/21815.html</url>
     <content><![CDATA[<h1 id="关于hexo-github-博客环境的搭建与美化"><a href="#关于hexo-github-博客环境的搭建与美化" class="headerlink" title="关于hexo + github 博客环境的搭建与美化"></a>关于hexo + github 博客环境的搭建与美化</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>用hexo + github(gitee)搭建博客能实现白嫖的效果</p>
@@ -85,41 +120,6 @@
 <p>只能全删了再重新做一遍（后来感觉应该是什么地方多了一个空格）所以xdm 美化阶段一定要经常验证，<u>大概进每隔一两次</u></p>
 <p><u>改进就把文档压缩存一份根基！！！！！！！！！！！！！！</u>。还是能遇到很多问题，虽然不是经验丰富，但也是身经百战了。</p>
 <p>总体来说圆满完成任务了(! ^ _ ^ !)</p>
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>Typora</tag>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于hexo搭建美化的问题与解答</title>
-    <url>/2021/08/16/21816.html</url>
-    <content><![CDATA[<h1 id="关于hexo搭建美化的问题与解答"><a href="#关于hexo搭建美化的问题与解答" class="headerlink" title="关于hexo搭建美化的问题与解答"></a>关于hexo搭建美化的问题与解答</h1><h2 id="一-搭建问题篇"><a href="#一-搭建问题篇" class="headerlink" title="一. 搭建问题篇"></a>一. 搭建问题篇</h2><h3 id="1-安装软件（新版其实就是一直点next）"><a href="#1-安装软件（新版其实就是一直点next）" class="headerlink" title="1.安装软件（新版其实就是一直点next）"></a>1.安装软件（新版其实就是一直点next）</h3><h3 id="2-命令操作（管理员打开）配置并生成hexo环境"><a href="#2-命令操作（管理员打开）配置并生成hexo环境" class="headerlink" title="2.命令操作（管理员打开）配置并生成hexo环境"></a>2.命令操作（管理员打开）配置并生成hexo环境</h3><ul>
-<li>如果使用git未能生成hexo，则使用命令操作。</li>
-</ul>
-<p>​      <u>在开始菜单中搜索“命令提示符”（不是“开始 + R”）右键管理员运行</u>。</p>
-<ul>
-<li><a href="https://blog.csdn.net/finally_flx/article/details/104914313">执行完<strong>npm install -g hexo</strong>，在git bash 下执行<strong>hexo -v</strong> 显示命令找不到</a>，可能是环境变量的问题。</li>
-<li> <a href="https://blog.csdn.net/dongzh029/article/details/116223977">npm安装Vue失败，报错：npm WARN saveError ENOENT: no such file or directory</a>，可以改也可以不改他，警告可以忽略掉。</li>
-<li> 必须生成一篇文章</li>
-</ul>
-<h3 id="3-环境变量设置"><a href="#3-环境变量设置" class="headerlink" title="3.环境变量设置"></a>3.环境变量设置</h3><h3 id="4-无法部署远端"><a href="#4-无法部署远端" class="headerlink" title="4.无法部署远端"></a>4.无法部署远端</h3><ul>
-<li><p><a href="https://www.jianshu.com/p/b2c22891a644">npm install 失败 无法连接</a></p>
-</li>
-<li><p><a href="https://www.cnblogs.com/tenderwx/p/5783432.html">Error: fatal: Not a git repository (or any of the parent directories): .git</a></p>
-</li>
-<li><p><a href="https://www.dazhuanlan.com/zrjandwxf1010/topics/1163244">warning: LF will be replaced by CRLF的去除方法</a></p>
-</li>
-</ul>
-<h2 id="二-美化问题篇"><a href="#二-美化问题篇" class="headerlink" title="二. 美化问题篇"></a>二. 美化问题篇</h2><h3 id="1-空格不当问题"><a href="#1-空格不当问题" class="headerlink" title="1.空格不当问题"></a>1.空格不当问题</h3><ul>
-<li><a href="https://blog.csdn.net/qq_43857095/article/details/108272313">err: YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 4, column 1: ^</a></li>
-</ul>
-<h3 id="2-仓库名对应"><a href="#2-仓库名对应" class="headerlink" title="2.仓库名对应"></a>2.仓库名对应</h3><h3 id="3-插件安装及卸载"><a href="#3-插件安装及卸载" class="headerlink" title="3.插件安装及卸载"></a>3.插件安装及卸载</h3><h3 id="4-启动插件"><a href="#4-启动插件" class="headerlink" title="4.启动插件"></a>4.启动插件</h3><h3 id="5-服务器网速慢"><a href="#5-服务器网速慢" class="headerlink" title="5.服务器网速慢"></a>5.服务器网速慢</h3><ul>
-<li><a href="https://blog.csdn.net/zheng_cs/article/details/117109710">Hexo-d 报错 fatal: unable to access https://github.com/xx/xx.github.io</a></li>
-</ul>
 ]]></content>
       <categories>
         <category>hexo</category>
