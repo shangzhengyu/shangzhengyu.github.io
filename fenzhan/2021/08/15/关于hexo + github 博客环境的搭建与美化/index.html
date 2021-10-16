@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="en" class="loading">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>关于hexo + github 博客环境的搭建与美化 - Hexo</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google" content="notranslate" />
+    <meta name="keywords" content="Fechin,"> 
+    <meta name="description" content="关于hexo + github 博客环境的搭建与美化前言用hexo + github(gitee)搭建博客能实现白嫖的效果
+gitee现在不能新建仓库，我就不会搞这个方案了
+搭出的博客网址是： xx,"> 
+    <meta name="author" content="John Doe"> 
+    <link rel="alternative" href="atom.xml" title="Hexo" type="application/atom+xml"> 
+    <link rel="icon" href="/img/favicon.png"> 
+    
+    
+<link rel="stylesheet" href="/css/diaspora.css">
+
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body class="loading">
+    <span id="config-title" style="display:none">Hexo</span>
+    <div id="loader"></div>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="https://shangzhengyu.github.io/dome1"></a>
+    <div title="播放/暂停" class="iconfont icon-play"></div>
+    <h3 class="subtitle">关于hexo + github 博客环境的搭建与美化</h3>
+    <div class="social">
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
+        </div>
+    </div>
+    <div class="scrollbar"></div>
+</div>
+
+    <div class="section">
+        <div class="article">
+    <div class='main'>
+        <h1 class="title">关于hexo + github 博客环境的搭建与美化</h1>
+        <div class="stuff">
+            <span>八月 15, 2021</span>
+            
+  <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/Typora/" rel="tag">Typora</a></li><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/hexo/" rel="tag">hexo</a></li></ul>
+
+
+        </div>
+        <div class="content markdown">
+            <h1 id="关于hexo-github-博客环境的搭建与美化"><a href="#关于hexo-github-博客环境的搭建与美化" class="headerlink" title="关于hexo + github 博客环境的搭建与美化"></a>关于hexo + github 博客环境的搭建与美化</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>用hexo + github(gitee)搭建博客能实现白嫖的效果</p>
+<p>gitee现在不能新建仓库，我就不会搞这个方案了</p>
+<p>搭出的博客网址是： xxx.github.io (不用输入http等)</p>
+<p>后期以matery主题为例</p>
+<p>该方案不能保证博客是绝对安全的，但以后有钱了可以转安全方案（最好的途径还是不白嫖）</p>
+<h2 id="最终效果"><a href="#最终效果" class="headerlink" title="最终效果"></a>最终效果</h2><p><a href="https://shangzhengyu.github.io/">云霄学派</a></p>
+<p><a target="_blank" rel="noopener" href="https://blinkfox.github.io/">闪烁之狐</a></p>
+<p><a target="_blank" rel="noopener" href="https://pcyfine.gitee.io/">Pcy-Blog</a></p>
+<p><a target="_blank" rel="noopener" href="https://yafine-blog.cn/">yafine-blog</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.lixl.cn/">李小龙的博客</a></p>
+<h2 id="准备工具"><a href="#准备工具" class="headerlink" title="准备工具"></a>准备工具</h2><ul>
+<li>Win10 x64</li>
+<li>Node.js</li>
+<li>Git</li>
+<li>Google Chrome/Microsoft Edge(好用的浏览器)</li>
+<li>GitHub</li>
+<li>sublime /vscode …（一个编写代码环境）</li>
+</ul>
+<h2 id="博客搭建"><a href="#博客搭建" class="headerlink" title="博客搭建"></a>博客搭建</h2><h3 id="1-Node-js-Git下载"><a href="#1-Node-js-Git下载" class="headerlink" title="1.Node.js, Git下载"></a>1.Node.js, Git下载</h3><ul>
+<li>对于win10 x64来说下载最新版本就好</li>
+<li>对于两者安装步骤基本上是直接点NEXT</li>
+<li>Node.js安转地址与操作说明书不同的，<u>在编辑环境变量时注意修改</u></li>
+</ul>
+<h3 id="2-GitHub的注册并创建仓库"><a href="#2-GitHub的注册并创建仓库" class="headerlink" title="2.GitHub的注册并创建仓库"></a>2.GitHub的注册并创建仓库</h3><ul>
+<li>格式要求：XXXXX.github.io</li>
+<li>英文用户名</li>
+</ul>
+<h3 id="3-添加SSH密钥"><a href="#3-添加SSH密钥" class="headerlink" title="3.添加SSH密钥"></a>3.添加SSH密钥</h3><h3 id="4-安装HEXO框架"><a href="#4-安装HEXO框架" class="headerlink" title="4.安装HEXO框架"></a>4.安装HEXO框架</h3><h3 id="具体搭建步骤"><a href="#具体搭建步骤" class="headerlink" title="具体搭建步骤"></a><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/HSSTthN92uaG0lAwpJwKrQ">具体搭建步骤</a></h3><h2 id="博客美化"><a href="#博客美化" class="headerlink" title="博客美化"></a>博客美化</h2><p>关于博客的美化操作很简单（<u>以matery主题为例</u>）</p>
+<ol>
+<li>安装插件</li>
+<li>修改配置文件</li>
+<li>部署到GitHub</li>
+</ol>
+<p>这里我直接引用大佬们的文章了（精选哟！）</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/jspnetcn/article/details/104111651">基于Hexo的matery主题搭建博客并优化</a></li>
+<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/kuashijidexibao/article/details/112971657">Hexo-Matery主题细致美化</a></li>
+<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_44846853/article/details/104561054">Hexo博客主题安装和优化（一）</a></li>
+</ul>
+<p>三篇文章大同小异但也有不同的地方，相互参照，同时食用。</p>
+<p>额外参考：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">HEXO 中文官网</a></li>
+</ul>
+<h2 id="感悟"><a href="#感悟" class="headerlink" title="感悟"></a>感悟</h2><p>暑假之期，百无聊赖，欲搭博客，又欲白嫖。（咳咳。正常点）</p>
+<p>然后就查了很多资料，我先从B站开始，先看播放量最多的，发现看不懂（首先我是个小白，其次感觉要花钱，还很多），</p>
+<p>然后又看了几个播放量多的，感觉能大致知道干什么了（吐槽，他们音乐声太多大了，哭…..）。</p>
+<p>开始查文本资料，这条路有难度，自己实际操作错误太多了，我只能把自己的错误copy，百度再操作。</p>
+<p>搭建HEXO上，开始我是用了近一天半，第二次就更加熟练，用了一会（估计一个多小时，这次用的家里win7 x32），</p>
+<p>但还是能遇见错误,到了第三次就行云流水了，迅速搭建完毕，开始美化主题，</p>
+<p>然后又又又遇到问题了，当我打下hexo g 的时候，git几乎显示了所有的修改内容，这并不正常，但我又找不到错误提示，</p>
+<p>只能全删了再重新做一遍（后来感觉应该是什么地方多了一个空格）所以xdm 美化阶段一定要经常验证，<u>大概进每隔一两次</u></p>
+<p><u>改进就把文档压缩存一份根基！！！！！！！！！！！！！！</u>。还是能遇到很多问题，虽然不是经验丰富，但也是身经百战了。</p>
+<p>总体来说圆满完成任务了(! ^ _ ^ !)</p>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+                <ul id="audio-list" style="display:none">
+                    
+                        
+                            <li title='0' data-url='http://link.hhtjim.com/163/425570952.mp3'></li>
+                        
+                    
+                        
+                            <li title='1' data-url='http://link.hhtjim.com/163/425570952.mp3'></li>
+                        
+                    
+                </ul>
+            
+        </div>
+        
+    <div id='gitalk-container' class="comment link"
+		data-enable='false'
+        data-ae='false'
+        data-ci=''
+        data-cs=''
+        data-r=''
+        data-o=''
+        data-a=''
+        data-d='false'
+    >查看评论</div>
+
+
+    </div>
+    
+</div>
+
+
+    </div>
+</div>
+</body>
+
+
+<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/typed.js"></script>
+<script src="/js/diaspora.js"></script>
+
+
+<link rel="stylesheet" href="/photoswipe/photoswipe.css">
+<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
+
+
+<script src="/photoswipe/photoswipe.min.js"></script>
+<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</html>
